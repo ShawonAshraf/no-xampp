@@ -1,5 +1,8 @@
 # no-xampp
 
+[![Build Status](https://dev.azure.com/shawonAshraf/no-xampp/_apis/build/status/ShawonAshraf.no-xampp?branchName=azure-pipelines)](https://dev.azure.com/shawonAshraf/no-xampp/_build/latest?definitionId=9&branchName=azure-pipelines)
+
+
 A docker based solution to avoid installing (or cope up with the lack of a XAMPP binary for your OS) XAMPP.
 
 ## Motivation
