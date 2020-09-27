@@ -16,6 +16,7 @@ Docker can solve this problem right? Run containers, keep your machines configs 
 
 ## Usage
  - Install `Docker` on your computer.
+ - For Linux users: you'll also have to install `docker-compose`
  - Clone this repo.
  - Run:
 
