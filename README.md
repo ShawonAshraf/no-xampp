@@ -14,7 +14,7 @@ Docker can solve this problem right? Run containers, keep your machines configs 
 ## Usage
  - Install `Docker` on your computer.
  - Clone this repo.
- - run 
+ - Run:
 
 ```bash
 # windows and macOS
@@ -36,8 +36,9 @@ sudo docker-compose up --build
 
   If you want, you can create additional users from `phpmyadmin`.
 
-  - In case you want to run your `php` code, `http://localhost:8080`
+  - In case you want to run your `php` code, `http://localhost:8080` . Make sure to put them inside the `website` folder.
   - `mysql` database connection will open up at port `3306`
+  - I'm not a PHP programmer, in fact I hate PHP but if you want to check out the dummy data I provided in some fancy webpage with a table, open `http://localhost:8080/docker_test.php`
 
 ## FAQ
   
@@ -56,6 +57,9 @@ There are plenty of good videos on YouTube on Docker. It's a bit advanced topic 
 __Can I make a pull request if I find an error and also a fix for it?__
 
 Yes good samaritan, that's the goal of open source! Do it!
+
+## Acknowledgements
+- https://gist.github.com/jcavat/2ed51c6371b9b488d6a940ba1049189b
 
 ## LICENSE
 MIT
